@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+.flex{
+  display: flex;
+}
+
+.main-cantainer{
+  height: 100vh;
+  display: flex;
+}
+:root{
+  --primary-color:black;
+}
+
+.left-nav{
+  position: sticky;
+  top: 0;
+}
+
+.left-box{
+  background-color: #FFFFFF;
+  flex-basis: 25%;
+  box-shadow: 0 0 5px var(--primary-color);
+  height: 120vh;
+  
+}
+
+.w3logo{
+  margin: 10px;
+}
+
+#n-msg{
+  background-color: #616161;
+  color: white;
+  padding: 16px;
+  font-size: 1.3rem;
+}
+
+.lnav-items{
+  height: 4rem;
+  align-items: center;
+  font-size: 1.1rem;
+  position: sticky;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+}
+
+.nav-image{
+  height: 25px;
+  margin-inline: 10px;
+}
+
+.lnav-items:hover{
+  background-color:  #CCCCCC;
+  cursor: pointer;
+}
+
+#n-msg:hover{
+  background-color: black;
+  color: white;
+}
+
+
+/*--------------- right-part ----------------------- */
+
+.right-box{
+  flex-basis: 75%;
+  background-color: #FFFFFF;
+  margin: 22px 0 0 15px;
+  height: 100vh;
+
+}
+
+.man-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+p-1{
+  font-size: 20px;
+  line-height: 22px;
+  font-family: RobotoDraft, Roboto, sans-serif;
+}
+.sub{
+  font-size: 1.1rem;
+  margin: 8px 0;
+  color: #716b6b;
+  font-family: RobotoDraft, Roboto, sans-serif;
+}
+
+.time{
+  font-size: 1.3rem;
+  font-family: RobotoDraft, Roboto, sans-serif;
+}
+
+.rf{
+  height: 15px;
+   margin-inline: 3px;
+} 
+
+.box{
+  display: flex;
+  margin: 5px;
+  height: 2.5rem;
+  width: 6.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #f2efef;
+}
+.box:hover{
+  background-color: #CCCCCC;
+  cursor: pointer;
+}  
+.side{
+  display: flex;
+  color: black;
+}
+
+p{
+  font-size: 15px;
+  line-height: 20px;
+  font-family: RobotoDraft, Roboto, sans-serif;
+}
